@@ -1,0 +1,1 @@
+ALTER TABLE users rename name TO full_name;
