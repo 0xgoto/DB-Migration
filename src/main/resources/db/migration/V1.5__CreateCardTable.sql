@@ -1,0 +1,4 @@
+CREATE TABLE cart(
+    id SERIAL NOT NULL PRIMARY KEY,
+    user_id SERIAL NOT NULL REFERENCES users(id)
+);
